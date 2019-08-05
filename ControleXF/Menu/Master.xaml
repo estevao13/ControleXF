@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+                  xmlns:page="clr-namespace:ControleXF"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  x:Class="ControleXF.Menu.Master">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu"
+                     HeightRequest="300">
+            <ScrollView>
+                <StackLayout BackgroundColor="Black">
+                    <Button Text="Activity Indicator"
+                            Margin="0, 35, 0, 0"
+                            FontSize="24"
+                            TextColor="White"
+                            BackgroundColor="Transparent"
+                            Clicked="GoActivityIndicatorPage" />
+                    <Button Text="Progress Bar"
+                            FontSize="24"
+                            TextColor="White"
+                            BackgroundColor="Transparent"
+                            Clicked="GoProgressBarPage" />
+                    <Button Text="Box View"
+                            FontSize="24"
+                            TextColor="White"
+                            BackgroundColor="Transparent"
+                            Clicked="GoBoxViewPage" />
+                    <Button Text="Label"
+                            FontSize="24"
+                            TextColor="White"
+                            BackgroundColor="Transparent"
+                            Clicked="GoLabelPage" />
+                    <Button Text="Button"
+                            FontSize="24"
+                            TextColor="White"
+                            BackgroundColor="Transparent"
+                            Clicked="GoButtonPage" />
+                    <Button Text="Entry Editor"
+                            FontSize="24"
+                            TextColor="White"
+                            BackgroundColor="Transparent"
+                            Clicked="GoEntryEditorPage" />
+                    <Button Text="Date Picker"
+                            FontSize="24"
+                            TextColor="White"
+                            BackgroundColor="Transparent"
+                            Clicked="GoDatePickerPage" />
+                    <Button Text="Time Picker"
+                            FontSize="24"
+                            TextColor="White"
+                            BackgroundColor="Transparent"
+                            Clicked="GoTimePickerPage" />
+                    <Button Text="Picker"
+                            FontSize="24"
+                            TextColor="White"
+                            BackgroundColor="Transparent"
+                            Clicked="GoPickerPage" />
+                </StackLayout>
+            </ScrollView>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <page:MainPage />
+    </MasterDetailPage.Detail>
+</MasterDetailPage>
