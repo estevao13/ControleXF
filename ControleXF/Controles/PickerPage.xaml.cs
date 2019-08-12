@@ -9,13 +9,13 @@ namespace ControleXF.Controles
     {
         public PickerPage()
         {
-            InitializeComponent();
+           // InitializeComponent();
         }
 
         private void MudarIndex(Object sender, EventArgs args)
         {
-            Picker obj = (Picker)sender;
-            Resultado.Text = obj.SelectedItem.ToString() + " - " + obj.SelectedIndex.ToString();
+            //Picker obj = (Picker)sender;
+            //Resultado.Text = obj.SelectedItem.ToString() + " - " + obj.SelectedIndex.ToString();
         }
     }
 }

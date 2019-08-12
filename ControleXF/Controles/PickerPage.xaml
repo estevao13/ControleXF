@@ -4,7 +4,7 @@
              x:Class="App01_ControleXF.Controles.PickerPage">
     <ContentPage.Content>
         <StackLayout>
-            <Picker Title="Empresas TI"
+            <!--<Picker Title="Empresas TI"
                     TextColor="Blue"
                     SelectedIndex="2"
                     SelectedIndexChanged="MudarIndex">
@@ -15,7 +15,7 @@
                     <x:String>Teste 4</x:String>
                     <x:String>Teste 5</x:String>
                 </Picker.Items>
-            </Picker>
+            </Picker>-->
 
             <Label x:Name="Resultado" />
         </StackLayout>

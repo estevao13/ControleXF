@@ -19,5 +19,12 @@
 /Users/macbook/Projects/ControleXF/ControleXF/obj/Debug/netstandard2.0/Controles/EntryEditorPage.xaml.g.cs
 /Users/macbook/Projects/ControleXF/ControleXF/obj/Debug/netstandard2.0/Controles/DatePickerPage.xaml.g.cs
 /Users/macbook/Projects/ControleXF/ControleXF/obj/Debug/netstandard2.0/Controles/TimePickerPage.xaml.g.cs
-/Users/macbook/Projects/ControleXF/ControleXF/obj/Debug/netstandard2.0/Controles/Picker.xaml.g.cs
 /Users/macbook/Projects/ControleXF/ControleXF/obj/Debug/netstandard2.0/Controles/PickerPage.xaml.g.cs
+/Users/macbook/Projects/ControleXF/ControleXF/obj/Debug/netstandard2.0/Controles/Teste.xaml.g.cs
+/Users/macbook/Projects/ControleXF/ControleXF/obj/Debug/netstandard2.0/Controles/SearchBarPage.xaml.g.cs
+/Users/macbook/Projects/ControleXF/ControleXF/obj/Debug/netstandard2.0/Controles/SliderStepperPage.xaml.g.cs
+/Users/macbook/Projects/ControleXF/ControleXF/obj/Debug/netstandard2.0/Controles/SwitchPage.xaml.g.cs
+/Users/macbook/Projects/ControleXF/ControleXF/obj/Debug/netstandard2.0/Controles/ImagePage.xaml.g.cs
+/Users/macbook/Projects/ControleXF/ControleXF/obj/Debug/netstandard2.0/Controles/ListViewPage.xaml.g.cs
+/Users/macbook/Projects/ControleXF/ControleXF/obj/Debug/netstandard2.0/Controles/TableView.xaml.g.cs
+/Users/macbook/Projects/ControleXF/ControleXF/obj/Debug/netstandard2.0/Controles/WebView.xaml.g.cs

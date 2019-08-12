@@ -16,5 +16,6 @@
   <ItemGroup>
     <Folder Include="Menu\" />
     <Folder Include="Controles\" />
+    <Folder Include="Modelo\" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ControleXF.Controles.TableView">
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView Intent="Settings">
+                <TableRoot>
+                    <TableSection Title="Backup">
+                        <SwitchCell Text="Backup Imagens" On="False"/>
+                        <SwitchCell Text="Backup Text" On="False"/>
+                        <SwitchCell Text="Backup Chat" On="False"/>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Backup Geral - Semanal" />
+                                <Slider Minimum="0" Maximum="7" HorizontalOptions="FillAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+
+                    <TableSection Title="Segurança">
+                        <SwitchCell Text="Senhas criptografadas" On="True" />
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

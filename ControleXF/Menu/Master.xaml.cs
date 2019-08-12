@@ -62,9 +62,50 @@ namespace ControleXF.Menu
 
         private void GoPickerPage(Object sender, EventArgs args)
         {
-            //Detail = new NavigationPage(new Controles.Picker());
-            //IsPresented = false;
+            Detail = new NavigationPage(new Controles.Teste());
+            IsPresented = false;
+        }
+
+        private void GoSearchBarPage(Object sender, EventArgs args)
+        {
+            Detail = new NavigationPage(new Controles.SearchBarPage());
+            IsPresented = false;
+        }
+
+        private void GoSliderStepperPage(Object sender, EventArgs args)
+        {
+            Detail = new NavigationPage(new Controles.SliderStepperPage());
+            IsPresented = false;
+        }
+
+        private void GoSwitchPage(Object sender, EventArgs args)
+        {
+            Detail = new NavigationPage(new Controles.SwitchPage());
+            IsPresented = false;
+        }
+
+        private void GoImagePage(Object sender, EventArgs args)
+        {
+            Detail = new NavigationPage(new Controles.ImagePage());
+            IsPresented = false;
+        }
+
+        private void GoListViewPage(Object sender, EventArgs args)
+        {
+            Detail = new NavigationPage(new Controles.ListViewPage());
+            IsPresented = false;
+        }
+
+        private void GoListTablePage(Object sender, EventArgs args)
+        {
+            Detail = new NavigationPage(new Controles.TableView());
+            IsPresented = false;
+        }
+
+        private void GoWebViewPage(Object sender, EventArgs args)
+        {
+            Detail = new NavigationPage(new Controles.WebView());
+            IsPresented = false;
         }
     }
 }
-

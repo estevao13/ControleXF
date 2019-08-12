@@ -54,6 +54,41 @@
                             TextColor="White"
                             BackgroundColor="Transparent"
                             Clicked="GoPickerPage" />
+                    <Button Text="Search Bar"
+                            FontSize="24"
+                            TextColor="White"
+                            BackgroundColor="Transparent"
+                            Clicked="GoSearchBarPage" />
+                    <Button Text="Slider e Stepper"
+                            FontSize="24"
+                            TextColor="White"
+                            BackgroundColor="Transparent"
+                            Clicked="GoSliderStepperPage" />
+                    <Button Text="Switch"
+                            FontSize="24"
+                            TextColor="White"
+                            BackgroundColor="Transparent"
+                            Clicked="GoSwitchPage" />
+                    <Button Text="Image"
+                            FontSize="24"
+                            TextColor="White"
+                            BackgroundColor="Transparent"
+                            Clicked="GoImagePage" />
+                    <Button Text="List View"
+                            FontSize="24"
+                            TextColor="White"
+                            BackgroundColor="Transparent"
+                            Clicked="GoListViewPage" />
+                    <Button Text="Table View"
+                            FontSize="24"
+                            TextColor="White"
+                            BackgroundColor="Transparent"
+                            Clicked="GoListTablePage" />
+                    <Button Text="Web View"
+                            FontSize="24"
+                            TextColor="White"
+                            BackgroundColor="Transparent"
+                            Clicked="GoWebViewPage" />
                 </StackLayout>
             </ScrollView>
         </ContentPage>
